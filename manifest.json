@@ -1,0 +1,12 @@
+{
+  "name": "max_and_jak-again",
+  "id": "3297230",
+  "description": "max and jak - first Phaser game",
+  "gitUrl": "",
+  "workspaceType": "html5",
+  "dockerBaseImage": "cloud9/ws-html5:2016-05-02T13-47-58Z",
+  "owner": {
+    "name": "dscrivener",
+    "id": "1204447"
+  }
+}

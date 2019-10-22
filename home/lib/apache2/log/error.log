@@ -1,0 +1,82 @@
+[Tue May 10 08:40:07.277739 2016] [mpm_prefork:notice] [pid 2712] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Tue May 10 08:40:07.277856 2016] [core:notice] [pid 2712] AH00094: Command line: 'apache2'
+[Tue May 10 08:40:27.703716 2016] [mpm_prefork:notice] [pid 2712] AH00169: caught SIGTERM, shutting down
+[Sun May 29 01:02:18.527161 2016] [mpm_prefork:notice] [pid 4205] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Sun May 29 01:02:18.527300 2016] [core:notice] [pid 4205] AH00094: Command line: 'apache2'
+[Sun May 29 01:02:20.485365 2016] [mpm_prefork:notice] [pid 4205] AH00169: caught SIGTERM, shutting down
+[Tue Jun 07 12:01:10.477150 2016] [mpm_prefork:notice] [pid 4432] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Tue Jun 07 12:01:10.479490 2016] [core:notice] [pid 4432] AH00094: Command line: 'apache2'
+[Mon Sep 12 04:17:43.593040 2016] [core:warn] [pid 21957] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 12 04:17:43.598544 2016] [mpm_prefork:notice] [pid 21957] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Sep 12 04:17:43.598620 2016] [core:notice] [pid 21957] AH00094: Command line: 'apache2'
+[Mon Sep 12 04:18:13.362058 2016] [mpm_prefork:notice] [pid 21957] AH00169: caught SIGTERM, shutting down
+[Mon Sep 12 04:18:15.631046 2016] [mpm_prefork:notice] [pid 22576] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Sep 12 04:18:15.631132 2016] [core:notice] [pid 22576] AH00094: Command line: 'apache2'
+[Mon Sep 12 04:18:32.124316 2016] [core:info] [pid 22587] [client 10.240.1.16:48646] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/WebContent-6-05-2016/index.html
+[Mon Sep 12 04:21:31.537014 2016] [core:info] [pid 22590] [client 10.240.0.213:42804] AH00128: File does not exist: /home/ubuntu/workspace/webcontent-6-05-2016/index.html
+[Mon Sep 12 05:07:32.331059 2016] [core:info] [pid 22583] [client 10.240.1.14:55044] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Tue Sep 13 23:07:46.588214 2016] [core:warn] [pid 2564] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 13 23:07:46.595395 2016] [mpm_prefork:notice] [pid 2564] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Tue Sep 13 23:07:46.595456 2016] [core:notice] [pid 2564] AH00094: Command line: 'apache2'
+[Tue Sep 13 23:08:08.126615 2016] [core:info] [pid 2602] [client 10.240.0.5:37446] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/WebContent-6-05-2016/index.html
+[Wed Sep 14 03:26:23.757039 2016] [core:info] [pid 2604] [client 10.240.1.16:36694] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/WebContent-6-05-2016/
+[Sat Oct 08 08:30:56.701110 2016] [core:warn] [pid 3693] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 08 08:30:56.706446 2016] [mpm_prefork:notice] [pid 3693] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Sat Oct 08 08:30:56.706475 2016] [core:notice] [pid 3693] AH00094: Command line: 'apache2'
+[Sat Oct 08 08:31:10.741861 2016] [core:info] [pid 3782] [client 10.240.0.5:38086] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Sat Oct 08 08:32:56.458630 2016] [core:info] [pid 3782] [client 10.240.1.32:34730] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Sat Oct 08 08:36:45.632536 2016] [mpm_prefork:notice] [pid 3693] AH00169: caught SIGTERM, shutting down
+[Sat Oct 08 08:36:47.847941 2016] [mpm_prefork:notice] [pid 5355] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Sat Oct 08 08:36:47.847995 2016] [core:notice] [pid 5355] AH00094: Command line: 'apache2'
+[Sat Oct 08 14:15:56.403218 2016] [core:info] [pid 5365] [client 10.240.0.214:49248] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Mon Oct 10 02:30:47.364060 2016] [core:warn] [pid 2694] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 10 02:30:47.370782 2016] [mpm_prefork:notice] [pid 2694] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 02:30:47.370820 2016] [core:notice] [pid 2694] AH00094: Command line: 'apache2'
+[Mon Oct 10 02:31:01.535367 2016] [core:info] [pid 2755] [client 10.240.0.213:57728] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Mon Oct 10 02:41:37.742296 2016] [core:info] [pid 2757] [client 10.240.0.5:58982] AH00128: File does not exist: /home/ubuntu/workspace/apple-touch-icon-76x76-precomposed.png
+[Mon Oct 10 02:41:37.979146 2016] [core:info] [pid 2751] [client 10.240.0.5:58986] AH00128: File does not exist: /home/ubuntu/workspace/apple-touch-icon-76x76.png
+[Mon Oct 10 02:41:38.219313 2016] [core:info] [pid 2754] [client 10.240.1.14:51462] AH00128: File does not exist: /home/ubuntu/workspace/apple-touch-icon.png
+[Mon Oct 10 02:41:38.510106 2016] [core:info] [pid 2755] [client 10.240.0.33:33490] AH00128: File does not exist: /home/ubuntu/workspace/apple-touch-icon.png
+[Mon Oct 10 02:42:57.493206 2016] [core:info] [pid 2754] [client 10.240.1.14:52424] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Mon Oct 10 02:56:23.778366 2016] [mpm_prefork:notice] [pid 2694] AH00169: caught SIGTERM, shutting down
+[Mon Oct 10 03:18:56.379389 2016] [mpm_prefork:notice] [pid 7451] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 03:18:56.379442 2016] [core:notice] [pid 7451] AH00094: Command line: 'apache2'
+[Mon Oct 10 03:27:08.551832 2016] [mpm_prefork:notice] [pid 7451] AH00169: caught SIGTERM, shutting down
+[Mon Oct 10 03:27:10.787571 2016] [mpm_prefork:notice] [pid 10880] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 03:27:10.787635 2016] [core:notice] [pid 10880] AH00094: Command line: 'apache2'
+[Mon Oct 10 03:27:22.694060 2016] [mpm_prefork:notice] [pid 10880] AH00169: caught SIGTERM, shutting down
+[Mon Oct 10 03:27:24.901299 2016] [mpm_prefork:notice] [pid 11428] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 03:27:24.901368 2016] [core:notice] [pid 11428] AH00094: Command line: 'apache2'
+[Mon Oct 10 03:30:46.720967 2016] [mpm_prefork:notice] [pid 11428] AH00169: caught SIGTERM, shutting down
+[Mon Oct 10 03:30:52.972164 2016] [mpm_prefork:notice] [pid 12467] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 03:30:52.972254 2016] [core:notice] [pid 12467] AH00094: Command line: 'apache2'
+[Mon Oct 10 03:31:57.729704 2016] [mpm_prefork:notice] [pid 12467] AH00169: caught SIGTERM, shutting down
+[Mon Oct 10 03:32:13.864638 2016] [mpm_prefork:notice] [pid 12998] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 03:32:13.864717 2016] [core:notice] [pid 12998] AH00094: Command line: 'apache2'
+[Mon Oct 10 03:32:21.510593 2016] [core:info] [pid 13007] [client 10.240.0.230:47576] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Mon Oct 10 03:34:26.742096 2016] [mpm_prefork:notice] [pid 12998] AH00169: caught SIGTERM, shutting down
+[Mon Oct 10 03:34:29.299654 2016] [mpm_prefork:notice] [pid 14575] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 03:34:29.299719 2016] [core:notice] [pid 14575] AH00094: Command line: 'apache2'
+[Mon Oct 10 03:37:04.183245 2016] [mpm_prefork:notice] [pid 14575] AH00169: caught SIGTERM, shutting down
+[Mon Oct 10 03:39:00.352110 2016] [mpm_prefork:notice] [pid 17718] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 03:39:00.352178 2016] [core:notice] [pid 17718] AH00094: Command line: 'apache2'
+[Mon Oct 10 03:43:16.794356 2016] [mpm_prefork:notice] [pid 17718] AH00169: caught SIGTERM, shutting down
+[Mon Oct 10 03:43:19.258270 2016] [mpm_prefork:notice] [pid 18818] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Mon Oct 10 03:43:19.258324 2016] [core:notice] [pid 18818] AH00094: Command line: 'apache2'
+[Tue Oct 11 22:13:11.663880 2016] [core:warn] [pid 2634] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 11 22:13:11.669282 2016] [mpm_prefork:notice] [pid 2634] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Tue Oct 11 22:13:11.669314 2016] [core:notice] [pid 2634] AH00094: Command line: 'apache2'
+[Tue Oct 11 22:13:42.350052 2016] [mpm_prefork:notice] [pid 2634] AH00169: caught SIGTERM, shutting down
+[Tue Oct 11 22:13:44.494922 2016] [mpm_prefork:notice] [pid 3232] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Tue Oct 11 22:13:44.495006 2016] [core:notice] [pid 3232] AH00094: Command line: 'apache2'
+[Tue Oct 11 22:13:53.006804 2016] [core:info] [pid 3240] [client 10.240.0.230:38432] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Thu Oct 13 21:36:42.601899 2016] [core:warn] [pid 2681] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 13 21:36:42.607505 2016] [mpm_prefork:notice] [pid 2681] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Thu Oct 13 21:36:42.607552 2016] [core:notice] [pid 2681] AH00094: Command line: 'apache2'
+[Thu Oct 13 21:36:49.744761 2016] [core:info] [pid 2766] [client 10.240.1.16:60720] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://max-and-jak-again-dscrivener.c9users.io/
+[Thu Oct 13 21:40:23.358098 2016] [mpm_prefork:notice] [pid 2681] AH00169: caught SIGTERM, shutting down
+[Thu Oct 13 21:40:25.690923 2016] [mpm_prefork:notice] [pid 4344] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Thu Oct 13 21:40:25.691005 2016] [core:notice] [pid 4344] AH00094: Command line: 'apache2'
+[Sun Mar 11 02:01:31.969687 2018] [core:warn] [pid 2582] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Mar 11 02:01:31.974124 2018] [mpm_prefork:notice] [pid 2582] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.16 configured -- resuming normal operations
+[Sun Mar 11 02:01:31.974176 2018] [core:notice] [pid 2582] AH00094: Command line: 'apache2'

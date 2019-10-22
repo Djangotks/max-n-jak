@@ -1,0 +1,123 @@
+//LEVEL SELECTOR//
+
+function gotoLevel1(){
+    game.state.start("level1");
+}
+function gotoLevel2(){
+    game.state.start("level2");
+}
+function gotoLevel3(){
+    game.state.start("level3");
+}
+function gotoMenu(){
+    game.state.start("menu");
+}
+
+//Phaser functions
+var levelSelector = {
+    preload : function(){
+        game.load.image("button", "./assets/images/spr_menuButton.png");
+        game.load.image("backButton", "./assets/images/spr_backButton.png");
+        game.load.image("timeBorder", "./assets/images/timeBorder.png");
+        game.load.image("mapImage2", "./assets/images/mapImage2.png");
+        game.load.image("MM1", "./assets/images/MM1.png");
+        game.load.image("MM2", "./assets/images/MM2.png");
+        game.load.image("MM3", "./assets/images/MM3.png");
+    },
+
+    create : function(){
+        //BACK IMAGE//
+        this.backImage = game.add.sprite(64, game.world.height - 32, "mapImage2");
+        this.backImage.anchor.set(0, 1);
+        this.backImage.scale.set(32);
+        this.backImage.smoothed = false;
+        
+        //BUTTONS//
+        this.menuNum = 3;
+        this.buttonScale = 1;
+        this.buttonY = 128;
+        this.buttonX = 400;
+        this.buttonDif = 175;
+        
+        this.textDifX = 0;
+        this.textDifY = -4;
+        
+        this.tTextDifX = -70;
+        this.tTextDifY = 22;
+        
+        this.MMDifX = 350;
+        this.MMDifY = 0;
+        
+        this.buttons = new Array(this.menuNum);
+        this.levelTexts = new Array(this.menuNUm);
+        this.timeTexts = new Array(this.menuNum);
+        this.timeBorders = new Array(this.menuNum);
+        this.miniMaps = new Array(this.menuNum);
+
+        for (var i = 0; i < this.menuNum; i++){
+            this.buttons[i] = game.add.sprite(this.buttonX, this.buttonY + (i*this.buttonDif), "button");
+            this.buttons[i].anchor.set(0.5);
+            this.buttons[i].scale.set(this.buttonScale);
+            this.buttons[i].smoothed = false;
+            this.buttons[i].inputEnabled = true;
+            
+            this.levelTexts[i] = game.add.text(this.buttonX+this.textDifX, this.buttonY + (i*this.buttonDif) + this.textDifY, "level " + (i+1), { font: "normal 35px Courier"});
+            this.levelTexts[i].anchor.set(0.5);
+            this.levelTexts[i].addColor("#D1D1D1", 0);
+            
+            this.timeTexts[i] = game.add.text(this.buttonX+this.tTextDifX, this.buttonY + (i*this.buttonDif) + this.tTextDifY, "unset", { font: "normal 15px Courier"});
+            this.timeTexts[i].anchor.set(0, 0.5);
+            this.timeTexts[i].addColor("#DBDBDB", 0);
+            
+            this.timeBorders[i] = game.add.sprite(this.buttonX, this.buttonY + (i*this.buttonDif) + 10, "timeBorder");
+            this.timeBorders[i].anchor.set(0.5);
+            this.timeBorders[i].scale.set(this.buttonScale);
+            this.timeBorders[i].tint = 0x919191; //as sprite is white this will set the colour
+
+            if (i == 0){
+                if (localStorage.getItem("level1Time") !== null){ //check that there is high score set
+                    this.timeTexts[i].setText(convertTime(localStorage.getItem("level1Time"))); //make the text display that time
+                }
+                else{
+                    this.timeTexts[i].setText("incomplete");
+                }
+                this.buttons[i].events.onInputDown.add(gotoLevel1, game);
+                this.miniMaps[i] = game.add.sprite(this.buttonX + this.MMDifX, this.buttonY + (i*this.buttonDif) + this.MMDifY, "MM1");
+            }
+            else if (i == 1){
+                if (localStorage.getItem("level2Time") !== null){
+                    this.timeTexts[i].setText(convertTime(localStorage.getItem("level2Time")));
+                }
+                else{
+                    this.timeTexts[i].setText("incomplete");
+                }
+                this.buttons[i].events.onInputDown.add(gotoLevel2, game);
+                this.miniMaps[i] = game.add.sprite(this.buttonX + this.MMDifX, this.buttonY + (i*this.buttonDif) + this.MMDifY, "MM2");
+            }
+            else if (i == 2){
+                if (localStorage.getItem("level3Time") !== null){
+                    this.timeTexts[i].setText(convertTime(localStorage.getItem("level3Time")));
+                }
+                else{
+                    this.timeTexts[i].setText("incomplete");
+                }
+                this.buttons[i].events.onInputDown.add(gotoLevel3, game);
+                this.miniMaps[i] = game.add.sprite(this.buttonX + this.MMDifX, this.buttonY + (i*this.buttonDif) + this.MMDifY, "MM3");
+            }
+            
+            this.miniMaps[i].anchor.set(0.5);
+            this.miniMaps[i].smoothed = false;
+            this.miniMaps[i].scale.set(16);
+        }
+        
+        //BACK BUTTON//
+        this.backButton = game.add.sprite(game.world.width - 32, 32, "backButton");
+        this.backButton.anchor.set(1, 0)
+        this.backButton.inputEnabled = true;
+        this.backButton.events.onInputDown.add(gotoMenu, game);
+    },
+
+    update : function(){
+        
+    }
+};
